@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2 , h3{
+    text-decoration: underline;
+}
+
+#hotelname{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    background-color: #ff2a00;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#catagory{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  align-items: center;
+  height: 40px;
+  background-color: rgb(234, 234, 230);
+}
+
+#catagory > table{
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+}
+
+#catagory > table th {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:white;
+    border-style:hidden;
+    border-color: #dedcdb;
+}
+
+#catagory > table th > a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#catagory > table th:hover{
+    background-color: rgb(255, 221, 0);
+    color: white;
+}
+
+header{
+    box-shadow: 0 0 10px #000;
+}
+
+
+#featured-foods , #contact-us , #discription{
+    padding: 200px;
+    background-color: rgb(255, 221, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    width: 90%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-us > form input {
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px #000;
+    height: 100px;
+    width : 300px;
+    font-size: 17px;
+}
+
+.food{
+    display: flex;
+    gap: 160px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(248, 228, 141);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.food > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: #ff2a00;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add >form input[type="submit"]{
+    background-color: #ff2a00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.add >form input[type="number"]{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: #ff2a00;
+    box-shadow: inset 0 0 5px #000;
+}
+
+.add >form input[type="submit"]:hover{
+    background-color: #b11f01;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
